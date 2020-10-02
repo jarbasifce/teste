@@ -1,0 +1,86 @@
+import { StyleSheet, Dimensions } from 'react-native';
+
+const { width } = Dimensions.get('window');
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    backgroundColor: '#f9fbfc',
+  },
+  heading: {
+    backgroundColor: '#d3011c',
+    flex: 1,
+    maxHeight: 56,
+    minHeight: 56,
+    flexDirection: 'row',
+  },
+  searchBar: {
+    backgroundColor: 'white',
+    marginBottom: 6,
+    marginTop: 0,
+    marginLeft: 19,
+    marginRight: 19,
+    fontSize: 12,
+    borderRadius: 44,
+    width: width - 38,
+    maxHeight: 44,
+    minHeight: 44,
+    paddingLeft: 28,
+  },
+  searchButton: {
+    flex: 1,
+    borderRadius: 32,
+    minWidth: 36,
+    minHeight: 36,
+    maxWidth: 36,
+    maxHeight: 36,
+    backgroundColor: '#ff2e29',
+    transform: [{ translateX: -60 }],
+    marginTop: 4,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  scrollContainer: {
+    flex: 1,
+    flexDirection: 'column',
+  },
+  categoryContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    flexGrow: 1,
+    minHeight: 32,
+    maxHeight: 32,
+    borderRadius: 32,
+    marginVertical: 6,
+    marginLeft: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    alignSelf: 'flex-start',
+    backgroundColor: '#f05050',
+  },
+  categoryLabel: {
+    color: 'white',
+    fontSize: 15,
+    fontWeight: 'bold',
+    marginHorizontal: 19,
+    lineHeight: 20,
+    textAlign: 'center',
+  },
+  subcategoriesContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+  },
+  storeContainer: {
+    flex: 1,
+    flexDirection: 'column',
+  },
+  storeLabel: {
+    color: '#545454',
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginLeft: 11,
+    marginBottom: 13,
+  },
+});

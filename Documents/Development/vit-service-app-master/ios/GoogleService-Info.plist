@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>702337566625-74a5ssd9o2kac3qfscs475k140cqp8ju.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.702337566625-74a5ssd9o2kac3qfscs475k140cqp8ju</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCSOTTlM57k0vRZ9KNPH-3ccn0c-GyMHWo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>702337566625</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.vitServiceApp</string>
+	<key>PROJECT_ID</key>
+	<string>vitservice-81549</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vitservice-81549.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:702337566625:ios:f37bdc7cc0931a64ea6de0</string>
+	<key>DATABASE_URL</key>
+	<string>https://vitservice-81549.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "533075523635",
+    "firebase_url": "https://vit-service-35e7c.firebaseio.com",
+    "project_id": "vit-service-35e7c",
+    "storage_bucket": "vit-service-35e7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533075523635:android:a8d7abf84e6dd0765ccb46",
+        "android_client_info": {
+          "package_name": "com.vitserviceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533075523635-tphabhi01v5m6ihoimupg74tf8uf9vvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKpVmfI0zwbOJKnKaoQM5PKL3J81P_6_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533075523635-tphabhi01v5m6ihoimupg74tf8uf9vvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
